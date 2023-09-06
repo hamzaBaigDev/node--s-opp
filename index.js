@@ -23,3 +23,9 @@ app.post('/hasanPOST', (req, res) =>{
 
 })
 
+app.post('/hasanPOST', (req, res) =>{
+
+    let name = req.body.name;
+    res.send(name);
+
+})
